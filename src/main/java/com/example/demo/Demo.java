@@ -11,6 +11,7 @@ public class Demo {
     
     @PostConstruct
     private void init() {
-        log.info("start");
+        log.info("----------- start ----------");
+        log.info("start.");
     }
 }
