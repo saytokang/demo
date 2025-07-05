@@ -13,6 +13,7 @@ public class Demo {
     
     @PostConstruct
     private void init() {
-        log.info("start, {}", LocalDateTime.now());
+        log.info("----------- start ----------");
+        log.info("start.");
     }
 }
