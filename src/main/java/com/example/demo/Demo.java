@@ -1,5 +1,7 @@
 package com.example.demo;
 
+import java.time.LocalDateTime;
+
 import org.springframework.stereotype.Component;
 
 import jakarta.annotation.PostConstruct;
@@ -11,6 +13,6 @@ public class Demo {
     
     @PostConstruct
     private void init() {
-        log.info("start");
+        log.info("start, {}", LocalDateTime.now());
     }
 }
