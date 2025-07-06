@@ -16,4 +16,9 @@ public class Demo {
         log.info("----------- start ----------");
         log.info("start.");
     }
-}
+
+    public void process(String name) {
+        var rs = String.format("==%s==",name);
+        log.info("{}");
+    }
+ }
